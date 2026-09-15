@@ -83,6 +83,19 @@ flowchart TD
 
 Python 3.11 · OpenCV · NumPy / SciPy · scikit-learn · PyTorch (fallback detector, optional EasyOCR and RapidOCR) · FastAPI · SQLite · React 19 · Vite · TypeScript · Tailwind · Telegram Mini App · Cloudflare tunnel · GitHub Actions. In evaluation only: DINOv2, CLIP, SigLIP, YOLO-World, SAM 2, Tesseract, docTR, local vision models via Ollama, and hosted vision-model APIs.
 
+## Screenshots
+
+_The real code running on synthetic data. No client data appears anywhere._
+
+![The pipeline's own HTML contact sheet after an offline run on a synthetic 140-second night video with invented ads: six ad slots found, each repeat grouped with its timecodes, and the brand field left empty for a person to confirm (the UI is in Russian, and OCR is off by default).](demo/01-contact-sheet.png)
+
+*The pipeline's own HTML contact sheet after an offline run on a synthetic 140-second night video with invented ads: six ad slots found, each repeat grouped with its timecodes, and the brand field left empty for a person to confirm (the UI is in Russian, and OCR is off by default).*
+
+![Two images the pipeline wrote from the same synthetic video: on the left, the LED panel found by the classic OpenCV detector and outlined in green; on the right, the frame-by-frame self-similarity matrix, whose repeating block pattern reveals the 68-second playlist loop.](demo/02-panel-and-similarity-matrix.png)
+
+*Two images the pipeline wrote from the same synthetic video: on the left, the LED panel found by the classic OpenCV detector and outlined in green; on the right, the frame-by-frame self-similarity matrix, whose repeating block pattern reveals the 68-second playlist loop.*
+
+
 ## Access
 
 The code is private. To request a walkthrough or read access, open an issue in this repository or email eazamat360@gmail.com.

@@ -2,7 +2,7 @@
 
 Works out which advertisers ran on a roadside LED screen from a two-minute phone video.
 
-**since Aug 2026, active · 180 commits · Python · TypeScript · code: private**
+**since Aug 2026, active · 181 commits · Python · TypeScript · code: private**
 ## The problem
 
 An outdoor-advertising operator knows what plays on its own LED screens, but not on anyone else's. Its advertisers want exactly that: where competitors are placed, what runs next to them, and how it changes week to week. Today that means sending someone to stand at the screen and write it down.
